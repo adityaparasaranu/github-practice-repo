@@ -1,2 +1,4 @@
 abc - line newly updated for testing
 
+
+bcd - line from branch
