@@ -1,1 +1,3 @@
 abc - line from master
+
+bcd - line from branch
