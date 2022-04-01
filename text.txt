@@ -1,0 +1,8 @@
+Hello world my name is Aditya, and I am the best at making python projects.
+I love python, and I know to develop flask web application and also learning django.
+This is another test block of text for this project!
+My brother is a good boy and of course, I am also a good boy.
+Okay this is just another test to make sure the app is working okay!
+The quick brown fox jumped over the rest of the sentence that I forget.
+That's all guys. These many sentences only I have.
+Hi everyone, this is a typing test. Hope you are enjoying and learning while typing.
