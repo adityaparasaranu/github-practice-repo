@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>My Form</title>
+</head>
+
+<body>
+    <h1>Register the below details</h1>
+
+    <form action="http://127.0.0.1:5500/success.html">
+        <label for="id-name">Name : </label>
+        <input type="text" name="First_Name" placeholder="Your Name" style="width: 200px; height: 20px;" required><br><br>
+
+        <h3>Select your Gender below</h3>
+        
+        <input type="radio" name="gender" value="male" required>
+        <label>Male</label><br>
+
+        <input type="radio" name="gender" value="female" required>
+        <label>Female</label><br>
+
+        <input type="radio" name="gender" value="other" required>
+        <label>Other</label><br><br>
+
+        <h3>Select your Profession/s below</h3>
+
+        <input type="checkbox" name="job" value="government_job">
+        <label>Government Job</label><br>
+
+        <input type="checkbox" name="job" value="private_job">
+        <label>Private Job</label><br>
+
+        <input type="checkbox" name="job" value="bussiness_job">
+        <label>Bussiness Job</label><br><br>
+
+        <h3>Select your Favourite Car. Select from any one of the dropdown</h3>
+
+        <select required>
+            <option value="Audi">Audi</option>
+            <option value="BMW" selected>BMW</option>
+            <option value="Lambo">Lambo</option>
+            <option value="Mclaren">Mclaren</option>
+            <option value="Swift">Swift</option>
+            <option value="Tata">Tata</option>
+        </select><br><br>
+        
+        <h4>The below is created using datalist</h4>
+            <input list="datalist" >
+            <datalist id="datalist">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Lambo">Lambo</option>
+                <option value="Mclaren">Mclaren</option>
+                <option value="Swift">Swift</option>
+                <option value="Tata">Tata</option>
+            </datalist><br><br>
+
+        <h3>Upload your Image below</h3>
+        <p>Click the below button and choose your Image</p><input type="file"><br><br><br><br>
+
+        <!-- <h3>Type something about you in the below Text Area</h3> -->
+
+        <!-- <textarea name="text_area" rows="10" cols="30">Type something about you...</textarea><br><br> -->
+
+        <fieldset>
+            <legend style="font-size: 20px; font-style: italic;">Personal Information</legend>
+                <h3>Type something about you in the below Text Area</h3>
+
+                <textarea name="text_area" rows="15" cols="40">Type something about you...</textarea><br><br>                       
+        </fieldset><br><br>
+
+        <button> <a style="text-decoration: none; color: black;" href="http://127.0.0.1:5500/form_practise.html">Clear all the selection</a> </button>
+
+        <br><br><br><br>
+        <input type="submit">
+
+    </form>
+
+
+</body>
+
+</html>
